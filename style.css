@@ -1,0 +1,119 @@
+body{
+    margin: 10px;
+}
+
+.personal-info{
+    text-align: center;
+}
+
+.margin-top-10{
+    margin-top: 10px;
+}
+
+.margin-vertical-10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.AUI, .VSB, .codelogic{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.AUI > h4:nth-child(1), 
+.codelogic > h4:nth-child(1) , 
+.VSB > h4:nth-child(1){
+    grid-column: 1/ span 4 ;
+}
+
+.AUI > h4:nth-child(3),  
+.VSB > h4:nth-child(3), 
+.codelogic > h4:nth-child(3) {
+    grid-column: 1/ span 4 ;
+}
+
+.AUI > h4:nth-child(5), 
+.VSB > h4:nth-child(5),
+.codelogic > h4:nth-child(5) {
+    grid-column: 1/ span 5 ;
+}
+
+.InnoWaves,
+.Intershipping,
+.Enhanced-technologies{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.InnoWaves > h4:nth-child(1),
+.Intershipping > h4:nth-child(1),
+.Enhanced-technologies > h4:nth-child(1){
+    grid-column: 1/ span 4 ;
+}
+
+.InnoWaves > h4:nth-child(3),
+.Intershipping > h4:nth-child(3),
+.Enhanced-technologies > h4:nth-child(3){
+    grid-column: 1/ span 4 ;
+}
+
+.InnoWaves > h4:nth-child(5),
+.InnoWaves > h4:nth-child(6),
+.Intershipping > h4:nth-child(5),
+.Intershipping > h4:nth-child(6),
+.Enhanced-technologies > h4:nth-child(5),
+.Enhanced-technologies > h4:nth-child(6){
+    grid-column: 1/ span 5 ;
+}
+
+.margin-vertical-0{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.margin-vertical-4{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.margin-vertical-10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-title{
+    margin-top: 0px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid black;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.margin-0{
+    margin: 0px;
+}
+
+.margin-bottom-10{
+    margin-bottom: 10px;
+}
