@@ -87,7 +87,7 @@
 .section-title{
     margin-top: 0px;
     margin-bottom: 6px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #3872b2;
 }
 
 .italic {
@@ -123,4 +123,20 @@
     padding-right: 8px;
     padding-left: 10px;
     font-size:24px
+}
+
+.blue-header{
+    color: #3872b2;
+}
+
+.my-name{
+    font-size: 22px;
+}
+
+.grey-section{
+    color: grey;
+}
+
+.padding-right-10{
+    padding-right: 10px;
 }
