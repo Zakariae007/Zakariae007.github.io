@@ -16,59 +16,6 @@
     margin-bottom: 10px;
 }
 
-.AUI, .VSB, .codelogic{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-}
-
-.AUI > h4:nth-child(1), 
-.codelogic > h4:nth-child(1) , 
-.VSB > h4:nth-child(1){
-    grid-column: 1/ span 4 ;
-}
-
-.AUI > h4:nth-child(3),  
-.VSB > h4:nth-child(3), 
-.codelogic > h4:nth-child(3) {
-    grid-column: 1/ span 4 ;
-}
-
-.AUI > h4:nth-child(5), 
-.VSB > h4:nth-child(5),
-.codelogic > h4:nth-child(5) {
-    grid-column: 1/ span 5 ;
-}
-
-.InnoWaves,
-.Intershipping,
-.Enhanced-technologies{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-}
-
-.InnoWaves > h4:nth-child(1),
-.Intershipping > h4:nth-child(1),
-.Enhanced-technologies > h4:nth-child(1){
-    grid-column: 1/ span 4 ;
-}
-
-.InnoWaves > h4:nth-child(3),
-.Intershipping > h4:nth-child(3),
-.Enhanced-technologies > h4:nth-child(3){
-    grid-column: 1/ span 4 ;
-}
-
-.InnoWaves > h4:nth-child(5),
-.InnoWaves > h4:nth-child(6),
-.Intershipping > h4:nth-child(5),
-.Intershipping > h4:nth-child(6),
-.Enhanced-technologies > h4:nth-child(5),
-.Enhanced-technologies > h4:nth-child(6){
-    grid-column: 1/ span 5 ;
-}
-
 .margin-vertical-0{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -143,4 +90,53 @@
 
 .margin-left-10{
     margin-left: 10px;
+}
+
+.experience-hearders{
+    display: flex;
+    justify-content: space-between;
+}
+
+.font-12{
+    font-size: 12px;
+}
+
+.font-13{
+    font-size: 13px;
+}
+
+.padding-right-45{
+    padding-right: 45px;
+}
+
+.padding-right-27{
+    padding-right: 27px;
+}
+
+.padding-right-21{
+    padding-right: 21px;
+}
+
+.padding-right-20{
+    padding-right: 20px;
+}
+
+.padding-right-7{
+    padding-right: 7px;
+}
+
+.margin-top-0{
+    margin-top: 0px;
+}
+
+.margin-bottom-8{
+    margin-bottom: 8px;
+}
+
+.margin-bottom-0{
+    margin-bottom: 0px;
+}
+
+.description{
+    font-size: 12px;
 }
