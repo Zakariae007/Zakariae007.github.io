@@ -1,151 +1,206 @@
 * {
-    margin: 0;
-    font-family: "Apple SD Gothic Neo";
+	margin: 2px;
+	font-family: "Apple SD Gothic Neo";
+	font-size: 13px;
+}
+
+.wrapper{
+	height: 297mm;
+	width: 210mm;
+	/* to centre page on screen*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content{
+	width: 100%;
+	height: 100%;
+}
+
+.cv-header{
+	width: 100%;
+	height: 100px;
+	text-align: center;
 }
 
 .personal-info{
-    text-align: center;
+	padding-bottom: 4px;
 }
 
-.margin-top-10{
-    margin-top: 10px;
+.name{
+	font-size: 32px;
+	color: #3872b2;
+	font-weight: bold;
 }
 
-.margin-vertical-10{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.address{
+	color: rgb(111, 111, 111);
 }
 
-.margin-vertical-0{
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.margin-vertical-4{
-    margin-top: 4px;
-    margin-bottom: 4px;
-}
-
-.margin-vertical-10{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.links{
+	display: grid;
+	grid-template-columns: repeat(4, 170px);
+	color: rgb(111, 111, 111);
+	padding-left: 56px;
 }
 
 .section-title{
-    margin-top: 0px;
-    margin-bottom: 6px;
-    border-bottom: 1px solid #3872b2;
-    font-size: 16px;
+	color: #3872b2;
+	font-weight: bold;
+	font-size: 18px;
+	border-bottom: 1px solid #3872b2;
 }
 
-.italic {
-    font-style: italic;
+.section-set{
+	margin: 8px 0px;
 }
 
-.lighter {
-    font-weight: lighter;
+.blue{
+	color: #3872b2;
+	font-size: 10px !important;
 }
 
-.normal {
-    font-weight: normal;
+.languages{
+	margin: 4px 0px;
 }
 
-.dot {
-    height: 8px;
-    width: 8px;
-    background-color: black;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 18px;
+.other-skills{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	width: 874px;
 }
 
-.margin-0{
-    margin: 0px;
+.experience-element{
+	width: 130px;
+}
+.experience-element-tangier{
+	width: 98px;
 }
 
-.margin-bottom-10{
-    margin-bottom: 10px;
+.even{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: -2px 0px;
 }
 
-.icon {
-    padding-right: 8px;
-    padding-left: 10px;
-    font-size:24px
+.batata-experience-width{
+	width:150px
 }
 
-.blue-header{
-    color: #3872b2;
+.batata-experience-location-width{
+	width:110px
 }
 
-.my-name{
-    font-size: 22px;
+.experience{
+	padding-bottom: 8px;
 }
 
-.grey-section{
-    color: grey;
+.experience-innowaves-title{
+	width: 174px;
 }
 
-.padding-right-10{
-    padding-right: 10px;
+.enhanced-experience-width{
+	width: 200px;
+}
+.enhanced-experience-location-width{
+	width: 92px;
 }
 
-.margin-left-10{
-    margin-left: 10px;
+.education-element-width{
+	width:300px
 }
 
-.experience-hearders{
-    display: flex;
-    justify-content: space-between;
+.education-period-width{
+	width:70px;
 }
 
-.font-12{
-    font-size: 12px;
+.ostrava-period-width{
+	width: 192px;
 }
 
-.font-13{
-    font-size: 13px;
+.ostrava-location-width{
+	width: 144px;
 }
 
-.font-14{
-    font-size: 14px;
+.ostrava-title-width{
+	width: 400px;
 }
 
-.font-32{
-    font-size: 32px;
+.spoken-languages{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(2, 1fr);
 }
 
-.padding-right-45{
-    padding-right: 45px;
+.element{
+	background: rgba(56, 114, 179, 0.47);
+	width: fit-content;
+	padding: 2px 10px;
+	border-radius: 8px;
 }
 
-.padding-right-27{
-    padding-right: 27px;
+.languages-view{
+	display: flex
 }
 
-.padding-right-21{
-    padding-right: 21px;
+.codelogic-period-width{
+	width: 144px;
 }
 
-.padding-right-20{
-    padding-right: 20px;
+.codelogic-location-width, .intershipping-location-width{
+	width: 118px;
 }
 
-.padding-right-7{
-    padding-right: 7px;
+.batata-period-width{
+	width: 194px;
 }
 
-.margin-top-0{
-    margin-top: 0px;
+.batata-location-width, .innowaves-location-width{
+	width: 128px;
 }
 
-.margin-bottom-8{
-    margin-bottom: 8px;
+.innowaves-period-width{
+	width: 200px;
 }
 
-.margin-bottom-0{
-    margin-bottom: 0px;
+.intershipping-period-width{
+	width: 160px;
 }
 
-.description{
-    font-size: 12px;
+.enhanced-period-width{
+	width: 182px;
+}
+
+.enhanced-location-width{
+	width: 110px;
+}
+
+.aui-period-width{
+	width: 90px;
+}
+
+.aui-location-width{
+	width: 110px;
+}
+
+.vsb-period-width{
+	width: 220px;
+}
+
+.vsb-location-width{
+	width: 158px;
+}
+
+.padding-bottom-4{
+	padding-bottom: 4px;
+}
+
+.size-14{
+	font-size: 14px;
+}
+
+.skills-used{
+	display: flex;
 }
