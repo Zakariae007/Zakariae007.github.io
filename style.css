@@ -116,6 +116,10 @@
 	width:70px;
 }
 
+.education-wrapper{
+	padding-top: 34px;
+}
+
 .ostrava-period-width{
 	width: 192px;
 }
@@ -146,31 +150,40 @@
 }
 
 .codelogic-period-width{
-	width: 144px;
+	width: 165px;
 }
 
 .codelogic-location-width, .intershipping-location-width{
 	width: 118px;
 }
 
-.batata-period-width{
-	width: 194px;
+.mega-period-width{
+	width: 139px;
 }
+
+.mega-location-width{
+	width: 140px;
+}
+
+.batata-period-width{
+	width: 185px;
+}
+
 
 .batata-location-width, .innowaves-location-width{
 	width: 128px;
 }
 
 .innowaves-period-width{
-	width: 200px;
+	width: 188px;
 }
 
 .intershipping-period-width{
-	width: 160px;
+	width: 151px;
 }
 
 .enhanced-period-width{
-	width: 182px;
+	width: 173px;
 }
 
 .enhanced-location-width{
@@ -178,7 +191,7 @@
 }
 
 .aui-period-width{
-	width: 90px;
+	width: 85px;
 }
 
 .aui-location-width{
@@ -186,7 +199,7 @@
 }
 
 .vsb-period-width{
-	width: 220px;
+	width: 213px;
 }
 
 .vsb-location-width{
